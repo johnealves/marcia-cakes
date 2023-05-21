@@ -70,6 +70,10 @@ export const useStyles = makeStyles({
     margin: 0,
     textAlign: 'center',
   },
+  priceSection: {
+    display: 'flex collumn',
+    alignItems: 'end',
+  },
   priceContainer: {
     color: '#643016',
     fontWeight: 700,

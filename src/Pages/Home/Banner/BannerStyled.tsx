@@ -1,13 +1,21 @@
-import { styled } from "@mui/material"
+import styled from "styled-components";
 
 
-export const BannerContainer = styled('div')({
+
+export const BannerContainer = styled.div`
   alignItems: 'center',
   display: 'flex',
   justifyContent: 'center',
+  heigth: '5rem',
   position: 'relative',
   width: '100%'
-})
+  object-fit: 'contain',
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`
 
 export const BannerMessage = styled('div')({
   color: 'whitesmoke',

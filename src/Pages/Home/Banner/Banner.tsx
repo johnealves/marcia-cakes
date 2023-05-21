@@ -17,7 +17,7 @@ const Banner: React.FC = () => {
       </BannerMessage> */}
       <img
         src={imageBanner}
-        style={{ width: "100%", height: "30rem" }}
+        style={{ width: "100%", maxHeight: '30rem' }}
       />
     </BannerContainer>
   );

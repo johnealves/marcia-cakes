@@ -11,7 +11,8 @@ type CakeButtonProps = {
 const Cakelist: React.FC = () => {
    return (
     <ListContainer>
-      {cakes.map(({name, smallCake, image}) => <CakeCard name={name} smallCake={smallCake} cakeImage={image} />)}
+      {cakes.map(({name, smallCake, averageCake, image}) => 
+        <CakeCard name={name} smallCake={smallCake} cakeImage={image} averageCake={averageCake}/>)}
     </ListContainer>
   )
 }
